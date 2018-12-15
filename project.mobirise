@@ -1,13 +1,13 @@
 {
   "settings": {
     "name": "煮故事",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#ffffff",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -31,7 +31,7 @@
     "noImageResize": "",
     "google-analytics": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 3,
+    "uniqCompNum": 21,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png"
   },
@@ -39,7 +39,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "煮故事 書",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -110,7 +110,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#ffffff!important"
             },
             "A": {
               "font-size": "10px",
@@ -148,9 +148,9 @@
             "timeout": 5,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/sam-1525-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tumblr-inline-oyruajysqs1v2xuor-1280-952x1000.jpg",
                 "active": true,
-                "showButtons": false,
+                "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -158,27 +158,27 @@
                 "title": "煮故事 書",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "蝸牛巷裡的生活史筆記",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a>         ",
+                "text": "<a href=\"page1.html\" target=\"_blank\" class=\"text-primary\">蔡金蘭女士的歲月交代&nbsp;- 鄉音再映</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">鄉音再映</a>         ",
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/dsc-108-2000x1328.jpg",
+                "image": "@PROJECT_PATH@/assets/images/27c0ac29-1d50-4a54-92df-2b8d72eb1d54-500x292.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "煮故事 書",
+                "title": "打版師的樂活生命觀",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "蝸牛巷裡的生活史筆記",
+                "text": "李美容",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlayOpacity": "0.1"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/sam-1063-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2-500x334.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -206,6 +206,267 @@
             },
             "P": {
               "text-align": "center"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Page Builder Description",
+        "title": "蔡金蘭",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": "0.6",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://o8d.github.io/act/\" target=\"_blank\">o8dact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
+          "_tags": [
+            "主题"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.6rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.650rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            },
+            "A": {
+              "font-size": "10px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/icon-1-1-119x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://o8d.github.io/story/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">煮故事</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-a"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tumblr-inline-oymhwmrevc1v2xuor-1281-1280x853.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "蔡金蘭女士的歲月交代",
+          "text": "<p>鄉音再映</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-d"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<b><br>現年93歲的 蔡金蘭女士（以下內文簡稱「金蘭」），大正13年出世（民國13年、西元1924年，身份證登記15年是錯誤的）  ，出身屏東萬丹 。當時為萬丹郡，管理附近的36庄頭，大正時期以州、郡、庄界定的行政層級來說，屬大聚落。<br></b><br>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-e"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "話說萬丹兒時",
+          "meta": "",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-f"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>金蘭驕傲的說著：「我年輕時是位人人稱羨的美女。」 ，金蘭父親從事牛車一事，家庭算是非常好過。 在18歲（民國31年、西元1942年）時，由日本警察介紹去擔任屏東製糖會社之萬丹製糖支社（ 甘蔗農場 ）裡頭的「給仕」( きゅうじ ，指服務生、勤雜工)，如有客人、高官踏訪，從事奉茶、<br>掃地清潔之事，享有月薪日幣30元，這樣的薪水等同於衙場（現為區公所）區長的薪資。爾後歇業是因美軍紛紛空襲，無法從事製糖<br><br><br></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-g",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "二戰空襲時代下的金蘭",
+          "meta": "",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-h"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>當時第二世界大戰，不少18歲身體強健的台灣囝仔赴日當囝仔海兵（讀CAI’WEN’CO’IN，影片約0200處，待考證）、女性則擔任護士</p><p>金蘭則是在20歲時（昭和20年、民國34年、西元1945年）赴日，從屏東搭乘火車至基隆（因高雄彼時，尚未能停靠大船），再搭日本知名大船Fuj malu號（待考證）前往日本，抵達大阪（おおさかし，讀Ōsaka ）後，再轉乘火車到東京投靠姨表哥，藉著姨丈寫信給已在日本唸大學的兩個姨表哥告知金蘭目前在哪裡，表哥再去接她</p><p><br></p><p>初期她承租公寓（ アパート，讀Apāto ），當時候這種住宅都是獨身仔（指單身）、夫妻租賃居住。而赴日首重的工作，仍需和一群台灣囝仔從事軍備競賽（男當兵、女護士），但大戰越烈時，各自失散。轉而在CEI’LA工作  （影片0940，待考證），做TOISHI 工廠 （影片0450，待考證），是生產像是磨剪刀用的金光石，做的是像螺絲這般大小的金光石，用來鑽孔。金蘭回憶起：「那時候日本工作很多，年輕人都去當兵，剩下老人。」金蘭正是生活在最欠缺生產人力的日本時期</p><p><br></p><p>當時美軍以美軍24（軍機型號，口述為14號應為錯誤）空襲，金蘭待至擁有最多火車站的上野（ うえの ，讀Ueno），當地兵營並沒有設有防空洞，僅有露出頭身的壕溝，而轟炸時便要瑟縮在裡頭，躲避飛彈。但大空襲來時，市區已不能住人、不能工作，飛機群飛，後來轉至山梨縣（ やまなしけん，讀Yamanashi ken ）甲府山內待2年，從事養牛工作，亦會自己上山買牛奶再行轉售，「當時牛奶是沒人在賣的，大家留著自己喝。」因為那時得靠配給，但她買的牛奶，並非配給的，所以賣給她的比較貴；那段時間也靠著採野菜、香菇、蜆仔生活，日本山上人家也待她很好，若有收成都會送給金蘭<br><br><br></p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-i",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "金蘭在日本時 所見的美軍日人",
+          "meta": "",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>對於美貌，金蘭非常有自信，憶起在日本時，日人會問妳哪裡來，她說我來自台灣，日本都覺不可思議，台灣有這等美女，因為其日人刻板印象台灣屬高砂族群</p><p><br></p><p>而二戰結束後，日本當地，日本人因戰敗、領土被佔，人人哭鳴。「美國仔很好，沒任何偏心；美國仔心肝好，要給我們獨立」金蘭想起這段往事，因後來台灣由國民政府接收，難免覺得可惜台灣人獨立的機會</p>",
+          "_tags": [
+            "主题"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-k",
+          "_styles": {
+            "P": {
+              "text-align": "left"
             }
           }
         }
