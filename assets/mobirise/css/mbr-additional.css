@@ -1992,7 +1992,7 @@ body {
 }
 .cid-rchOowusK5 {
   padding-top: 30px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #2e2e2e;
 }
 .cid-rchOowusK5 .row-links {
@@ -2059,6 +2059,11 @@ body {
 }
 .cid-rchOowusK5 .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-rchPKFTM4J {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
 }
 .cid-rchj7sPE5H .navbar {
   padding: .5rem 0;
