@@ -2286,28 +2286,10 @@ body {
 .cid-rchj7sPE5H .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-rchweFSbSa {
-  background: #ffffff;
-}
-.cid-rchweFSbSa .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-rchweFSbSa .mbr-figure {
-  margin: 0 auto;
-}
-.cid-rchweFSbSa figcaption {
-  position: relative;
-}
-.cid-rchweFSbSa figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rchweFSbSa .image-block {
-    width: 100% !important;
-  }
+.cid-rchVmH50jm {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/sam-1868-2000x1333.jpg");
 }
 .cid-rchxggcAjO {
   padding-top: 60px;
@@ -2592,7 +2574,7 @@ body {
 }
 .cid-rchBIH0yDx {
   padding-top: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
   background-color: #ffffff;
 }
 @media (min-width: 992px) {
@@ -2607,6 +2589,11 @@ body {
 }
 .cid-rchBIH0yDx .mbr-text {
   color: #767676;
+}
+.cid-rchUzIiZ1c {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-rchj7sPE5H .navbar {
   padding: .5rem 0;
